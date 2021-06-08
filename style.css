@@ -1,0 +1,33 @@
+body {height: 100%;}
+
+body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkblue;
+  text-align: center;
+  color: white;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.text {
+    position: relative;
+    font-size : 6em;
+    text-align: center;
+    color:#00fe77;
+    -webkit-box-reflect: below -0.25em linear-gradient(transparent,#0004) ;  
+}
+
+a {
+  color: #FFE37B;
+  text-decoration: none;
+}
+
+.wave-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
