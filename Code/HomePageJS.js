@@ -16,6 +16,7 @@ const data = [
     qualify: "All South African citizens, All SASSA grant recipients qualifies for funding, Applicants whose combined household income is not more than R350 000 per annum, Person with disability: Combined household income must not be more than R600 000 per annum, Students who started studying before 2018 whose household income is not more than R122 000 per annum",
     photo: "../Resources/NSFAS Image.jpg",
     fields: "NSFAS covers all fields of study at South African Universities or TVET Colleges",
+    tags: "Agriculture Biotechnology  Marine Sciences Food Technology Horticultural Sciences  Mathematics and Physics Applied Law Administration  Hospitality Management Business Management Accounting   Human Resources  Auditing  Project Management Marketing Business Management Sport Tourism Education Teaching Chemical Engineering Clothing Computer Engineering   Maritime Studies Mechanical Engineering Biomedical Sciences Dental Sciences Nursing Ophthalmic Sciences Wellness Sciences Interior Design Urban and Regional Planning Information Technology Applied Design Media",
     url: "nsfas.org.za",
   },
 
@@ -105,7 +106,7 @@ function cardTemplate(card) {
       <div class="card-content">
         <h3 class="card-title">${card.name}</h3>
         <p class="card-brief">${card.brief}</p>
-        <p class="card-body">${card.fields}</p>
+        <p class="card-body">${card.tags}</p>
         <a class="button"  onclick="openPage(this.id)" id="${card.id}" >Open</a>
       </div>
     </div>
