@@ -215,13 +215,7 @@ body h2 {
 
 /*SearchBar*/
 
-.searchBoxCards{
-    padding: 30px;
-    border-radius: 35px;
-background: linear-gradient(145deg, #1f1f1f, #242424);
-box-shadow:    19px 19px 38px #0e0e0e,
--19px -19px 38px #363636;
-}
+
 
 .SearchBarWhole {
     font-family: 'Anton', sans-serif;
