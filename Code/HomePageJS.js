@@ -40,7 +40,7 @@ const data = [
     brief: "ABSA Fellowship Programme is designed to fund and help create individuals that have the leadership skills to thrive in the modern environment",
     covers: "Tuition fees, Textbook fees, Acquisition of personal laptop, Accommodation, Living expenses",
     qualify: "South African citizen and permanent resident, Between 18 -25 years of age, Must have Matric certificate (or in process of acquiring one), An average of 65% for matric, Full time student, Provisional acceptance at a recognized university in South Africa",
-    photo: "../Resources/ABSA IMAGE.png",
+    photo: "../Resources/ABSA Image.png",
     fields: "The ABSA Fellowship Programme covers nearly all fields of study at CPUT",
     tags: "Agriculture Biotechnology  Marine Sciences Food Technology Horticultural Sciences  Mathematics and Physics Applied Law Administration  Hospitality Management Business Management Accounting   Human Resources  Auditing  Project Management Marketing Business Management Sport Tourism Education Teaching Chemical Engineering Clothing Computer Engineering   Maritime Studies Mechanical Engineering Biomedical Sciences Dental Sciences Nursing Ophthalmic Sciences Wellness Sciences Interior Design Urban and Regional Planning Information Technology Applied Design Media",
     url: "absafellowship.sv.co.za",
@@ -123,8 +123,72 @@ const data = [
     fields: "The Ford Bursary covers course in the Business Management, Accounting, Computer Engineering, Mechanical Engineering and Information Technology fields at CPUT",
     tags: "Business Management Accounting Computer Engineering Mechanical Engineering Information Technology",
     url: "ford.co.za/about-ford/careers",
-  }
+  },
 
+  {
+    id: "10-Bursary",
+    name: "SAAFost Bursary",
+    description: "The South African Association for Food Science and Technology is an organization aimed at helping South Africa's food industries increase their base knowledge of food science and technology. The SAAFost Bursary is aimed at helping students currently in tertiary education or making the transition to tertiary education from matric it acquire funding for tje entire length of their studies in the Food Science and Technology fields.",
+    brief: "The SAAFost Bursary is aimed at helping students acquire funding in the Food Science and Technology field of study ",
+    covers: "Tuition fees up to R35 000 per annum, Textbook fees, Registration fees",
+    qualify: "South African citizen, Studying at a recognized tertiary institution of education in South Africa, Full time students, Pursuing a course in the fields of Food Science or Technology",
+    photo: "../Resources/SAAFOST Image.jpg",
+    fields: "The SAAFost Bursary covers only the Food Technology field at CPUT",
+    tags: "Food Technology",
+    url: "saafost.org.za/mysaafost/bursaries/saafost-undergraduate-bursary",
+  },
+
+  {
+    id: "11-Bursary",
+    name: "PSG Bursary",
+    description: "The PSG Bursary is hosted by the PSG financial services group which is one of the top financial planning organizations in the South Africa. The PSG Bursary is intended to help fund students in their final year (Including Honour and Masters) of studying in any fields that may relate to the financial services sector. The bursary also provides opportunities for students to enter the PSG Graduate Programme where they can acquire first hand experience in the financial services sector.",
+    brief: "The PSG Bursary is aimed at students in their final year of their degree acquire funding and work place experience in the financial sector.",
+    covers: "Tuition fees, Textbook fees, Registration fees",
+    qualify: "South African citizen, Must have a matric certificate, Students with disability's are inclined to apply, Studying at a recognized tertiary institution of education in South Africa",
+    photo: "../Resources/PSG Image.png",
+    fields: "The PSG  Bursary covers the Mathematics and Physics, Computer Engineering, Mechanical Engineering and Information Technology fields at CPUT",
+    tags: "Mathematics and Physics Computer Engineering Mechanical Engineering Information Technology",
+    url: "legacy.psg.co.za/careers/position-detail.php?position=2849",
+  },
+
+  {
+    id: "12-Bursary",
+    name: "Hexagon Trust Bursary",
+    description: "The Hexagon Trust is a not-profit organization that strives to provide opportunities to previously disadvantaged groups. The Hexagon Trust was founded to offer students battling to pay the tuition a solution. Their goal is to provide students with a high academic performance and the determination to reach their goals an opportunity to reach their full potential. Upon acceptance of the Hexagon Bursary students must become members of the Hexagon Students Alumni Association and contribute their time and skills towards community service programs before and after their qualification.",
+    brief: "The Hexagon Trust is a NGO aimed at helping high achieving students from previously disadvantaged backgrounds acquire funding for their studies",
+    covers: "Tuition fees, Registration fees, Textbook Fees",
+    qualify: "South African citizen, Must be 18 years or older, Must have a matric certificate, Studying at a recognized tertiary institution of education in South Africa, Applicants whose combined household income is not more than R350 000 per annum",
+    photo: "../Resources/Hexagon Image.png",
+    fields: "The Hexagon Bursary covers the Marine Sciences, Horticultural Sciences, Mathematics and Physics, Business Management, Chemical Engineering, Computer Engineering and Mechanical Engineering at CPUT",
+    tags: "Marine Sciences Horticultural Sciences Mathematics and Physics Business Management Business Management Chemical Engineering Computer Engineering Mechanical Engineering",
+    url: "hexagontrust.org/bursary-application",
+  },
+
+  {
+    id: "13-Bursary",
+    name: "Grandslots Bursary",
+    description: "",
+    brief: "",
+    covers: "",
+    qualify: "",
+    photo: "../Resources/GRANDSLOTS Image.jpg",
+    fields: "",
+    tags: "",
+    url: "",
+  },
+
+  {
+    id: "14-Bursary",
+    name: "",
+    description: "",
+    brief: "",
+    covers: "",
+    qualify: "",
+    photo: "../Resources/ Image.jpg",
+    fields: "",
+    tags: "",
+    url: "",
+  }
 ];
 
 
