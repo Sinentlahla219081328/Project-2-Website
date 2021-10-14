@@ -110,8 +110,7 @@ body {
     text-decoration: none;
     border-radius: 35px;
     background: linear-gradient(145deg, #1f1f1f, #242424);
-    box-shadow:  19px 19px 38px #0e0e0e,
-                -19px -19px 38px #363636;
+    box-shadow: 19px 19px 38px #0e0e0e, -19px -19px 38px #363636;
 }
 
 a:link {
@@ -122,30 +121,25 @@ a:link {
     color: rgb(236, 236, 236);
 }
 
-
-
-
 #ind {
     color: #fff;
     padding-left: 50px;
     font-family: 'Anton', sans-serif;
-    font-size: 10px;
+    font-size: 6px;
     padding: 30px;
     margin: 20px;
     border-radius: 35px;
     background: linear-gradient(145deg, #1f1f1f, #242424);
-    box-shadow:  19px 19px 38px #0e0e0e,
-             -19px -19px 38px #363636;
+    box-shadow: 19px 19px 38px #0e0e0e, -19px -19px 38px #363636;
 }
 
-#ind p{
+#ind p {
     font-size: 25px;
 }
 
-#ind h5{
+#ind h5 {
     font-size: 2.5vw;
 }
-
 
 
 /*Hover for links*/
@@ -175,12 +169,13 @@ a:link {
     justify-content: space-between;
     top: 70%;
     left: 5%;
-    width: 50ch;
+    width: 400px;
+    height: 300px;
     margin: min(1rem, 20px);
     font-size: 10px;
     background-color: rgb(71, 71, 71);
-    background-image: url("../Resources/NSFAS Image.jpg");
     background-size: 100%;
+    background-image: url("https://study-domain.com/wp-content/uploads/2017/08/c-users-john-music-new-folder-img_cape_town-jpg.jpeg");
     background-position: top;
     background-repeat: no-repeat;
     border-radius: 8px;
