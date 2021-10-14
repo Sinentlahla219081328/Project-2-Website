@@ -1,4 +1,5 @@
-//Json Data
+
+ //Json Data
 const tagDATA = ["Agriculture", "Biotechnology ", "Marine Sciences", "Food Technology", "Horticultural Sciences ", "Mathematics and Physics",
 "Applied Law", "Administration ", "Hospitality Management", "Business Management", "Accounting  ", "Human Resources", 
 "Auditing ", "Project Management", "Marketing", "Business Management", "Sport  ", "Tourism ", 
@@ -227,7 +228,6 @@ $("#SearchBar").keyup(function () {
 function cardTemplate(card) {
 
   return`
-
   <div class="col-sm-4">
     <div class="card" style="background-image: url('${card.photo}');">
       <div class="card-content">
@@ -238,17 +238,13 @@ function cardTemplate(card) {
       </div>
     </div>
   </div>
-
-
 `
 
 }
 
 //Cycles threw all the data and runs cardTemplate to create a card for each of the data objects
 document.getElementById("cards").innerHTML = `
-
 ${data.map(cardTemplate).join("")}
-
 `
 
 
@@ -349,5 +345,6 @@ for (var i = 0; i < arrayLength1; i++) {
    $(qualify).empty();
  });
 
+ 
  
  
