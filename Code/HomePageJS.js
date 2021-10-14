@@ -1,3 +1,4 @@
+
 //Json Data
 const tagDATA = ["Agriculture", "Biotechnology ", "Marine Sciences", "Food Technology", "Horticultural Sciences ", "Mathematics and Physics",
 "Applied Law", "Administration ", "Hospitality Management", "Business Management", "Accounting  ", "Human Resources", 
@@ -348,6 +349,3 @@ for (var i = 0; i < arrayLength1; i++) {
    $(covers).empty();
    $(qualify).empty();
  });
-
- 
- 
