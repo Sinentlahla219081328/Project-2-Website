@@ -1,5 +1,6 @@
 /*Navigation*/
 
+
 header {
     min-height: 300px;
     background-image: -webkit-linear-gradient(270deg, rgba(255, 0, 0, 0.57), #222), url('../Resources/Background.jpg');
@@ -34,7 +35,7 @@ header {
 .nav a {
     position: relative;
     padding: 15px 40px;
-    margin: 40px 40px;
+    margin: 40px 30px;
     color: rgb(255, 255, 255);
     text-decoration: none;
     text-transform: uppercase;
@@ -105,12 +106,20 @@ body {
 
 /*Counter effect*/
 
+.counterClass{
+    border-radius: 35px;
+    background: linear-gradient(145deg, #1f1f1f, #242424);
+    box-shadow:    19px 19px 38px #0e0e0e,
+    -19px -19px 38px #363636;
+}
+
 #counter {
     text-align: center;
-    padding-bottom: 50px;
+    padding: 15px;
     border-right: 1px dashed rgb(255, 255, 255);
     color: white;
     font-family: Helvetica;
+    
 }
 
 #counter:last-child {
@@ -129,19 +138,30 @@ i {
 
 /*Slogan effect*/
 
+#rolling{
+    border-radius: 35px;
+    background: linear-gradient(145deg, #1f1f1f, #242424);
+    box-shadow:    19px 19px 38px #0e0e0e,
+    -19px -19px 38px #363636;
+}
+
 body h2 {
-    font-size: 100px;
+    padding-right: 10%;
+    font-size: 5vw;
     font-family: Helvetica;
-    line-height: 1.06;
+    line-height: 1.2;
     letter-spacing: -0.02em;
     color: #ffffff;
 }
 
+
+
 .mask {
+    
     height: 110px;
     position: relative;
     overflow: hidden;
-    margin-top: var(--offset);
+      
 }
 
 .mask span {
@@ -153,11 +173,14 @@ body h2 {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     background-repeat: no-repeat;
+    
+
 }
 
 .mask span[data-show] {
     transform: translateY(-100%);
     transition: 0.5s transform ease-in-out;
+    
 }
 
 .mask span[data-up] {
@@ -191,6 +214,8 @@ body h2 {
 
 
 /*SearchBar*/
+
+
 
 .SearchBarWhole {
     font-family: 'Anton', sans-serif;
@@ -290,7 +315,7 @@ form:hover .fa {
 .card-content {
     --padding: 1.5rem;
     padding: var(--padding);
-    background: linear-gradient( hsl(0 0% 0% / 0), hsl(20 0% 0% / 0.3) 20%, hsl(0 0% 0% / 1));
+    background: linear-gradient( hsl(0 0% 0% / 0), hsl(20 0% 0% / 0.6) 20%, hsl(0 0% 0% / 1));
 }
 
 .card-title::after {
@@ -547,6 +572,14 @@ footer {
     border-top: 3px solid Black;
     bottom: 0px;
 }
+
+.footerBack{
+    border-radius: 35px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow:  19px 19px 38px #666666,
+                 -19px -19px 38px #ffffff;
+}
+
 
 footer p {
     color: Black;

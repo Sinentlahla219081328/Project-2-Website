@@ -2,8 +2,8 @@
 
 header {
     min-height: 300px;
-    background-image: -webkit-linear-gradient(270deg, rgba(255, 0, 0, 0.57), #222), url('../Resources/Background.jpg');
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, .57), #222), url('../Resources/Background.jpg');
+    background-image: -webkit-linear-gradient(270deg, rgba(255, 0, 0, 0.57), #222222), url('../Resources/Background.jpg');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .57), #222222), url('../Resources/Background.jpg');
     background-position: 0px 0px, 38% 50%;
     background-size: auto, cover;
     background-repeat: repeat, no-repeat;
@@ -34,7 +34,7 @@ header {
 .nav a {
     position: relative;
     padding: 15px 40px;
-    margin: 40px 40px;
+    margin: 40px 30px;
     color: rgb(255, 255, 255);
     text-decoration: none;
     text-transform: uppercase;
@@ -92,8 +92,8 @@ body {
     margin: 0;
     padding: 0;
     color: rgb(0, 0, 0);
-    background: #222;
-    background-color: #222;
+    background: #222222;
+    background-color: #222222;
     font-size: 10px;
 }
 
@@ -102,34 +102,50 @@ body {
 
 #linksindex {
     text-align: center;
-    font-size: 15px;
+    font-size: 25px;
+    padding: 20px;
+    margin: 20px;
     color: rgb(104, 102, 102);
     font-family: 'Anton', sans-serif;
     text-decoration: none;
+    border-radius: 35px;
+    background: linear-gradient(145deg, #1f1f1f, #242424);
+    box-shadow:  19px 19px 38px #0e0e0e,
+                -19px -19px 38px #363636;
 }
 
 a:link {
-    color: rgb(255, 255, 255);
+    color: blue);
 }
 
-a:visited {
-    color: rgb(255, 255, 255);
+#linksindex a:hover {
+    color: rgb(236, 236, 236);
 }
 
-a:hover {
-    color: rgb(0, 0, 0);
-}
 
-a:active {
-    color: blue;
-}
+
 
 #ind {
     color: #fff;
     padding-left: 50px;
     font-family: 'Anton', sans-serif;
-    font-size: 9px;
+    font-size: 10px;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 35px;
+    background: linear-gradient(145deg, #1f1f1f, #242424);
+    box-shadow:  19px 19px 38px #0e0e0e,
+             -19px -19px 38px #363636;
 }
+
+#ind p{
+    font-size: 25px;
+}
+
+#ind h5{
+    font-size: 2.5vw;
+}
+
 
 
 /*Hover for links*/
@@ -163,7 +179,7 @@ a:active {
     margin: min(1rem, 20px);
     font-size: 10px;
     background-color: rgb(71, 71, 71);
-    background-image: url("http://www.vendaland.org/images/nsfas.jpg");
+    background-image: url("../Resources/NSFAS Image.jpg");
     background-size: 100%;
     background-position: top;
     background-repeat: no-repeat;
