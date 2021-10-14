@@ -1,3 +1,4 @@
+
 //Json Data
 const tagDATA = ["Agriculture", "Biotechnology ", "Marine Sciences", "Food Technology", "Horticultural Sciences ", "Mathematics and Physics",
     "Applied Law", "Administration ", "Hospitality Management", "Business Management", "Accounting  ", "Human Resources",
@@ -327,6 +328,7 @@ function openPage(id) {
     const qualifyData = Qualify.split(',');
     var arrayLength2 = qualifyData.length;
 
+
     for (var i = 0; i < arrayLength2; i++) {
 
         var node = document.createElement('li');
@@ -347,3 +349,4 @@ close.addEventListener('click', () => {
     $(covers).empty();
     $(qualify).empty();
 });
+
