@@ -113,9 +113,7 @@ body {
     box-shadow: 19px 19px 38px #0e0e0e, -19px -19px 38px #363636;
 }
 
-a:link {
-    color: blue);
-}
+
 
 #linksindex a:hover {
     color: rgb(236, 236, 236);
@@ -175,7 +173,7 @@ a:link {
     font-size: 10px;
     background-color: rgb(71, 71, 71);
     background-size: 100%;
-    background-image: url("https://study-domain.com/wp-content/uploads/2017/08/c-users-john-music-new-folder-img_cape_town-jpg.jpeg");
+    background-image: url('../Resources/popup.jpeg');
     background-position: top;
     background-repeat: no-repeat;
     border-radius: 8px;
